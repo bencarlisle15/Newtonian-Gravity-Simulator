@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Newtonian Gravity Simulator</string>
+    <string name="clear">Clear</string>
+    <string name="increase">Speed +</string>
+    <string name="decrease">Speed -</string>
+    <string name="change">Mode</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="on">Turn Ads On</string>
+    <string name="off">Turn Ads Off</string>
+</resources>

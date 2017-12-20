@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "557290301707",
+    "firebase_url": "https://newtonian-gravity-simulator.firebaseio.com",
+    "project_id": "newtonian-gravity-simulator",
+    "storage_bucket": "newtonian-gravity-simulator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557290301707:android:a8650a174dd55428",
+        "android_client_info": {
+          "package_name": "com.carlisle.ben.newtoniangravitysimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557290301707-ih2v9t0fbscsf7e9rooasaj5sj1rr1ud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carlisle.ben.newtoniangravitysimulator",
+            "certificate_hash": "7e0ae60e1099a5b79502ac481c21b52cb2beecec"
+          }
+        },
+        {
+          "client_id": "557290301707-6m3o0lann0rdeb846teehgidvki49uf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMSbkEj_iS8m8-eiOGlnolLOCcnAQTRu0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557290301707-6m3o0lann0rdeb846teehgidvki49uf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
