@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		draw = (DrawView) findViewById(R.id.space);
+		draw = findViewById(R.id.space);
 		draw.requestFocus();
 		new Thread(draw).start();
 		draw.setMain(this);
-		AdView mAdView = (AdView) findViewById(R.id.adView);
+		AdView mAdView = findViewById(R.id.adView);
 		AdRequest adRequest = new AdRequest.Builder().build();
 		mAdView.loadAd(adRequest);
 	}
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
 							status = 1;
 							i.setTitle(R.string.on);
 							findViewById(R.id.adView).setVisibility(View.INVISIBLE);
-							LinearLayout l = (LinearLayout) findViewById(R.id.linearLayout);
+							LinearLayout l = findViewById(R.id.linearLayout);
 							RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) l.getLayoutParams();
 							params.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
 							l.setLayoutParams(params);
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
 		} else if (status == 1) {
 			findViewById(R.id.adView).setVisibility(View.VISIBLE);
 			i.setTitle(R.string.off);
-			LinearLayout l = (LinearLayout) findViewById(R.id.linearLayout);
+			LinearLayout l = findViewById(R.id.linearLayout);
 			RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) l.getLayoutParams();
 			params.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM, 0);
 			l.setLayoutParams(params);
