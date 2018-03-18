@@ -1,0 +1,1 @@
+Newtonian Gravity Simulator is created for Android and is a simulator of the interaction between created planets. There are two methods of adding planets, drag and drop (touch anywhere and hold to create and grow a planet, and shooter mode (press somewhere and pull back to set it's speed). A third mode, camera mode, allows the user to follow planets as the travel around the map.
