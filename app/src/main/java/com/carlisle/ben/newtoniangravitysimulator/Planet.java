@@ -5,7 +5,7 @@ class Planet {
 	private float yPos;
 	private float xSpeed = 0;
 	private float ySpeed = 0;
-	private float mass = 1;
+	private float mass;
 	private final int color;
 
 	Planet(float x, float y, float m, int c) {

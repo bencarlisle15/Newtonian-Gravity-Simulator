@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Newtonian-Gravity-Simulator.iml" filepath="$PROJECT_DIR$/Newtonian-Gravity-Simulator.iml" />
-      <module fileurl="file://C:\Users\benca\AndroidStudioProjects\Newtonian-Gravity-Simulator\NewtonianGravitySimulator.iml" filepath="C:\Users\benca\AndroidStudioProjects\Newtonian-Gravity-Simulator\NewtonianGravitySimulator.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newtonian-gravity-simulator.iml" filepath="$PROJECT_DIR$/newtonian-gravity-simulator.iml" />
     </modules>
   </component>
 </project>
