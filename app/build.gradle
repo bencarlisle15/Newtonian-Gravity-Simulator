@@ -11,9 +11,9 @@ android {
         applicationId "com.carlisle.ben.newtoniangravitysimulator"
         minSdkVersion 19
         targetSdkVersion 28
-        versionName '2.02'
+        versionName '3.0'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        versionCode 5
+        versionCode 6
     }
     buildTypes {
         release {

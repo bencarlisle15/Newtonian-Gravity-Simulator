@@ -1,16 +1,14 @@
 package com.carlisle.ben.newtoniangravitysimulator;
 
 class Planet {
-	private float xPos;
-	private float yPos;
+	private Position position;
 	private float xSpeed = 0;
 	private float ySpeed = 0;
 	private float mass;
 	private final int color;
 
-	Planet(float x, float y, float m, int c) {
-		xPos = x;
-		yPos = y;
+	Planet(Position position, float m, int c) {
+		this.position = position;
 		mass = m;
 		color = c;
 	}
@@ -23,12 +21,8 @@ class Planet {
 		mass = m;
 	}
 
-	float getXPos() {
-		return xPos;
-	}
-
-	float getYPos() {
-		return yPos;
+	Position getPosition() {
+		return position;
 	}
 
 	float getXSpeed() {
@@ -43,10 +37,9 @@ class Planet {
 		return mass;
 	}
 
-	void setPos(float x, float y) {
-		xPos = x;
-		yPos = y;
-	}
+	void setPosition(Position position) {
+	    this.position = position;
+    }
 
 	void setSpeed(float xS, float yS) {
 		xSpeed = xS;
